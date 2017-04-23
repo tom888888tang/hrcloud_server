@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/chemistry-opencmis-client-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/chemistry-opencmis-commons-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/geronimo-jcdi_1.0_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/httpclient-4.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/httpcore-4.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.annotation-1.1.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.ejb-3.1.1.jar" sourcepath="/Users/tangxiaoguang/.m2/repository/org/glassfish/javax.ejb/3.1.1/javax.ejb-3.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.el-api-2.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.faces-2.1.18.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.persistence-2.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.servlet-3.1-b33.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.servlet.jsp-2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.transaction-1.1.1.v201105210645.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/javax.websocket-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/mail-1.4.5.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Desktop/neo-javaee6-wp-sdk-2.106.7/api/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="/Users/tangxiaoguang/Downloads/apache-tomcat-7.0.68/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

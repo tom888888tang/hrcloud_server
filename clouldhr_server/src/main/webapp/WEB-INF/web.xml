@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<!-- Register the HttpServlet implementation -->
+	<filter>
+		<filter-name>CorsFilter</filter-name>
+		<filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
+		<init-param>
+			<param-name>cors.allowed.origins</param-name>
+			<param-value>*</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.allowed.methods</param-name>
+			<param-value>GET,POST,HEAD,OPTIONS,PUT,DELETE</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.allowed.headers</param-name>
+			<param-value>Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,accept,content-type,dataserviceversion,maxdataserviceversion,JWT,jwt</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.exposed.headers</param-name>
+			<param-value>Access-Control-Allow-Origin,Access-Control-Allow-Credentials</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.support.credentials</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cors.preflight.maxage</param-name>
+			<param-value>10</param-value>
+		</init-param>
+	</filter>
+	<servlet>
+		<servlet-name>UserInformation</servlet-name>
+		<servlet-class>odata.service.user.web.UserOdataServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<!-- Our OData service can be invoked at http://localhost:8080/DemoService/DemoService.svc -->
+	<servlet-mapping>
+		<servlet-name>UserInformation</servlet-name>
+		<url-pattern>/UserInformation/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>odata.service.login.web.ServerLogin</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserLogout</servlet-name>
+		<servlet-class>odata.service.login.web.ServerLogout</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogout</servlet-name>
+		<url-pattern>/UserLogout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SFLearningToken</servlet-name>
+		<servlet-class>odata.service.sflearning.web.SFlearningOdata</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SFLearningToken</servlet-name>
+		<url-pattern>/SFLearningToken</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- Declare the JNDI lookup of the default data source -->
+	<resource-ref>
+		<res-ref-name>jdbc/DefaultDB</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+	</resource-ref>
+
+</web-app>
